@@ -16,7 +16,7 @@
 <body>
   <!-- Top bar -->
   <header class="topbar">
-    <div class="wrap topbar__inner">
+    <div class="topbar__inner">
       <a class="brand" href="#home" aria-label="Agro Models Home">
         <img class="brand__logo" src="assets/logo.png" alt="Agro Models logo">
       </a>
@@ -29,20 +29,20 @@
       </button>
 
       <nav id="siteNav" class="nav">
-        <a class="nav__link" href="#articles">
-          <span class="nav__dot" aria-hidden="true"></span> Articles
-        </a>
         <a class="nav__link" href="#home">
           <span class="nav__dot" aria-hidden="true"></span> Home
-        </a>
-        <a class="nav__link" href="#contact">
-          <span class="nav__dot" aria-hidden="true"></span> Contact
         </a>
         <a class="nav__link" href="#services">
           <span class="nav__dot" aria-hidden="true"></span> Services
         </a>
         <a class="nav__link" href="#about">
           <span class="nav__dot" aria-hidden="true"></span> About
+        </a>
+        <a class="nav__link" href="#articles">
+          <span class="nav__dot" aria-hidden="true"></span> Articles
+        </a>
+        <a class="nav__link" href="#contact">
+          <span class="nav__dot" aria-hidden="true"></span> Contact
         </a>
       </nav>
     </div>
@@ -51,207 +51,189 @@
   <!-- Hero -->
   <main id="home">
     <section class="hero">
-      <div class="wrap">
-        <div class="heroCard" role="img" aria-label="Agro Models hero image with title">
-          <div class="heroCard__bg"></div>
-          <div class="heroCard__overlay"></div>
-
-          <div class="heroCard__content">
-            <h1 class="heroTitle">Agro Models</h1>
-            <p class="heroSubtitle">
-              Integrating Environmental, Hydrological, and Process System Modeling for<br>
-              Smarter Agriculture and Sustainable Water Treatment
-            </p>
-          </div>
+      <div class="heroCard">
+        <div class="heroCard__content">
+          <h1 class="heroTitle">Agro Models</h1>
+          <p class="heroSubtitle">
+            Integrating Environmental, Hydrological, and Process System Modeling for Smarter Agriculture and Sustainable Water Treatment
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- About text block (long paragraph style like your screenshot) -->
+    <!-- About text block -->
     <section class="section">
-      <div class="wrap">
-        <div class="prose">
-          <p>
-            Agro Models (Private) Limited is dedicated to advancing sustainable development through the power of modeling and simulation.
-            We develop mechanistic, hybrid and data-driven models that bridge agriculture, water treatment, and environmental systems into one integrated framework.
-          </p>
+      <div class="prose">
+        <p>
+          Agro Models (Private) Limited is dedicated to advancing sustainable development through the power of modeling and simulation. We develop mechanistic, hybrid and data-driven models that bridge agriculture, water treatment, and environmental systems into one integrated framework.
+        </p>
 
-          <p>
-            Our work begins with smart and precision agriculture, optimizing nutrient management, irrigation efficiency, and crop performance.
-            Beyond the field, we extend this modeling approach to water and wastewater treatment processes, ensuring that treated water meets environmental standards while maintaining cost and operational efficiency.
-          </p>
+        <p>
+          Our work begins with smart and precision agriculture, optimizing nutrient management, irrigation efficiency, and crop performance. Beyond the field, we extend this modeling approach to water and wastewater treatment processes, ensuring that treated water meets environmental standards while maintaining cost and operational efficiency.
+        </p>
 
-          <p>
-            What distinguishes Agro Models (Private) Limited is its systems-level perspective.
-            Our models do not stop at plant roots or treatment plant outlets; they trace how human interventions ripple across rivers, aquifers, and soils, linking agricultural productivity with water security and environmental health.
-            By coupling these domains, we aim to create a comprehensive, physically based modeling framework that can also integrate data analytics and AI where appropriate, enhancing prediction, adaptability, and decision-making for clients across sectors.
-          </p>
-        </div>
+        <p>
+          What distinguishes Agro Models (Private) Limited is its systems-level perspective. Our models do not stop at plant roots or treatment plant outlets; they trace how human interventions ripple across rivers, aquifers, and soils, linking agricultural productivity with water security and environmental health. By coupling these domains, we aim to create a comprehensive, physically based modeling framework that can also integrate data analytics and AI where appropriate, enhancing prediction, adaptability, and decision-making for clients across sectors.
+        </p>
       </div>
     </section>
 
     <!-- Services -->
     <section id="services" class="section section--tightTop">
-      <div class="wrap">
-        <h2 class="sectionTitle">Our Services</h2>
+      <h2 class="sectionTitle">Our Services</h2>
 
-        <div class="services">
-          <article class="serviceCard">
-            <img class="serviceCard__img" src="assets/Agriculture_webpage.png" alt="Agricultural models">
-            <h3 class="serviceCard__title"><a href="#contact">Agricultural Models</a></h3>
-          </article>
+      <div class="services">
+        <article class="serviceCard">
+          <img class="serviceCard__img" src="assets/Agriculture_webpage.png" alt="Agricultural models">
+          <h3 class="serviceCard__title"><a href="#contact">Agricultural Models</a></h3>
+        </article>
 
-          <article class="serviceCard">
-            <img class="serviceCard__img" src="assets/hydrology.png" alt="Water resource models">
-            <h3 class="serviceCard__title"><a href="#contact">Water Resource Models</a></h3>
-          </article>
+        <article class="serviceCard">
+          <img class="serviceCard__img" src="assets/hydrology.png" alt="Water resource models">
+          <h3 class="serviceCard__title"><a href="#contact">Water Resource Models</a></h3>
+        </article>
 
-          <article class="serviceCard">
-            <img class="serviceCard__img" src="assets/water treatment.png" alt="Water treatment models">
-            <h3 class="serviceCard__title"><a href="#contact">Water treatment models</a></h3>
-          </article>
-        </div>
+        <article class="serviceCard">
+          <img class="serviceCard__img" src="assets/water treatment.png" alt="Water treatment models">
+          <h3 class="serviceCard__title"><a href="#contact">Water treatment models</a></h3>
+        </article>
       </div>
     </section>
 
-    <!-- Schedule a meeting (two column) -->
+    <!-- Schedule a meeting -->
     <section id="contact" class="section">
-      <div class="wrap">
-        <div class="twoCol">
-          <div class="twoCol__left">
-            <h2 class="bigTitle">Schedule a meeting</h2>
+      <div class="twoCol">
+        <div class="twoCol__left">
+          <h2 class="bigTitle">Schedule a meeting</h2>
 
-            <p class="lead">
-              Let us know your name, contact email and the company you represent. We will get in touch with you and schedule the meeting.
-              Let us have an initial meeting, virtually, to discuss how our models can be tailored to your needs.
-              We have the expertise to tailor and develop models to requirement.
-            </p>
+          <p class="lead">
+            Let us know your name, contact email and the company you represent. We will get in touch with you and schedule the meeting. Let us have an initial meeting, virtually, to discuss how our models can be tailored to your needs. We have the expertise to tailor and develop models to requirement.
+          </p>
 
-            <div class="logoLarge">
-              <img src="assets/logo.png" alt="Agro Models logo">
-            </div>
-          </div>
-
-          <div class="twoCol__right">
-            <form class="form" action="https://formspree.io/f/yourFormId" method="POST">
-              <div class="formRow formRow--two">
-                <div class="field">
-                  <label for="firstName">First Name <span class="req">(required)</span></label>
-                  <input id="firstName" name="firstName" type="text" required />
-                </div>
-
-                <div class="field">
-                  <label for="lastName">Last Name <span class="req">(required)</span></label>
-                  <input id="lastName" name="lastName" type="text" required />
-                </div>
-              </div>
-
-              <div class="field">
-                <label for="email">Email <span class="req">(required)</span></label>
-                <input id="email" name="email" type="email" required />
-              </div>
-
-              <label class="checkbox">
-                <input type="checkbox" name="updates" value="yes">
-                <span>Sign up for news and updates</span>
-              </label>
-
-              <div class="field">
-                <label for="whatsapp">WhatsApp Number</label>
-                <input id="whatsapp" name="whatsapp" type="tel" />
-              </div>
-
-              <div class="field">
-                <label for="company">Company Name <span class="req">(required)</span></label>
-                <input id="company" name="company" type="text" required />
-              </div>
-
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5"></textarea>
-              </div>
-
-              <div class="field">
-                <label for="date">Date</label>
-                <div class="help">Let us know a date convenient to you for the meeting</div>
-                <input id="date" name="date" type="date" />
-              </div>
-
-              <button class="btn" type="submit">Submit</button>
-
-              <p class="formNote">
-                To receive submissions by email, replace <code>yourFormId</code> with your Formspree form id, or switch to Netlify Forms.
-              </p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About CTA like screenshot -->
-    <section id="about" class="section">
-      <div class="wrap">
-        <div class="aboutRow">
-          <div class="aboutRow__logo">
+          <div class="logoLarge">
             <img src="assets/logo.png" alt="Agro Models logo">
           </div>
+        </div>
 
-          <div class="aboutRow__text">
-            <h2 class="sectionTitle sectionTitle--left">About<br>our company</h2>
-            <p class="smallLead">
-              …At its heart, Agro Models is about integration: of science and society, of mathematics and environmental care, of local expertise and global application.
-              Our mission is to build models that don't just simulate systems, but transform how they are understood, managed, and sustained.
+        <div class="twoCol__right">
+          <form class="form" action="https://formspree.io/f/yourFormId" method="POST">
+            <div class="formRow formRow--two">
+              <div class="field">
+                <label for="firstName">First Name <span class="req">(required)</span></label>
+                <input id="firstName" name="firstName" type="text" required />
+              </div>
+
+              <div class="field">
+                <label for="lastName">Last Name <span class="req">(required)</span></label>
+                <input id="lastName" name="lastName" type="text" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="email">Email <span class="req">(required)</span></label>
+              <input id="email" name="email" type="email" required />
+            </div>
+
+            <label class="checkbox">
+              <input type="checkbox" name="updates" value="yes">
+              <span>Sign up for news and updates</span>
+            </label>
+
+            <div class="field">
+              <label for="whatsapp">WhatsApp Number</label>
+              <input id="whatsapp" name="whatsapp" type="tel" />
+            </div>
+
+            <div class="field">
+              <label for="company">Company Name <span class="req">(required)</span></label>
+              <input id="company" name="company" type="text" required />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+
+            <div class="field">
+              <label for="date">Date</label>
+              <div class="help">Let us know a date convenient to you for the meeting</div>
+              <input id="date" name="date" type="date" />
+            </div>
+
+            <button class="btn" type="submit">Submit</button>
+
+            <p class="formNote">
+              To receive submissions by email, replace <code>yourFormId</code> with your Formspree form id, or switch to Netlify Forms.
             </p>
+          </form>
+        </div>
+      </div>
+    </section>
 
-            <a class="btn btn--wide" href="#contact">Learn more</a>
-          </div>
+    <!-- About CTA -->
+    <section id="about" class="section">
+      <div class="aboutRow">
+        <div class="aboutRow__logo">
+          <img src="assets/logo.png" alt="Agro Models logo">
+        </div>
+
+        <div class="aboutRow__text">
+          <h2 class="sectionTitle sectionTitle--left">About our company</h2>
+          <p class="smallLead">
+            At its heart, Agro Models is about integration: of science and society, of mathematics and environmental care, of local expertise and global application. Our mission is to build models that don't just simulate systems, but transform how they are understood, managed, and sustained.
+          </p>
+
+          <a class="btn btn--wide" href="#contact">Learn more</a>
         </div>
       </div>
     </section>
 
     <!-- Social + Footer -->
     <section class="section section--tightTop">
-      <div class="wrap">
-        <h2 class="sectionTitle">Follow us on social</h2>
+      <h2 class="sectionTitle">Follow us on social</h2>
 
-        <div class="socialTile">
-          <img src="assets/social-tile.jpg" alt="Agro Models social tile">
+      <div class="socialTile">
+        <img src="assets/social-tile.jpg" alt="Agro Models social tile">
+      </div>
+
+      <footer class="footer">
+        <div class="footer__left">
+          <div class="footer__brand">AGRO MODELS (PRIVATE) LIMITED</div>
         </div>
 
-        <footer class="footer">
-          <div class="footer__left">
-            <div class="footer__brand">AGRO MODELS (PRIVATE) LIMITED</div>
-          </div>
-
-          <div class="footer__right">
-            <div class="footerCol">
-              <div class="footerCol__title">Location</div>
-              <div class="footerCol__text">
-                De Soysa Mawatha,<br>
-                Mount Lavinia,<br>
-                Sri Lanka.
-              </div>
-            </div>
-
-            <div class="footerCol">
-              <div class="footerCol__title">Contact</div>
-              <div class="footerCol__text">
-                <a href="mailto:ciyaveera@agromodels.com">ciyaveera@agromodels.com</a><br>
-                <a href="tel:+94743779538">+94 74 377 9538</a>
-              </div>
+        <div class="footer__right">
+          <div class="footerCol">
+            <div class="footerCol__title">Location</div>
+            <div class="footerCol__text">
+              De Soysa Mawatha,<br>
+              Mount Lavinia,<br>
+              Sri Lanka.
             </div>
           </div>
-        </footer>
-      </div>
+
+          <div class="footerCol">
+            <div class="footerCol__title">Contact</div>
+            <div class="footerCol__text">
+              <a href="mailto:ciyaveera@agromodels.com">ciyaveera@agromodels.com</a><br>
+              <a href="tel:+94743779538">+94 74 377 9538</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </section>
 
-    <!-- Articles placeholder -->
+    <!-- Articles -->
     <section id="articles" class="section section--tightTop">
-      <div class="wrap">
-        <h2 class="sectionTitle">Articles</h2>
-        <article class="article-card">
-          <p class="article-date">Nov 29</p>
-          <h3>Flood Resilience and Water Quality</h3>
-          <p>A practical way to keep living spaces safe and water clean</p>
-          <a href="flood-resilience-
-
+      <h2 class="sectionTitle">Articles</h2>
+      <article class="article-card">
+        <p class="article-date">Nov 29</p>
+        <h3>Flood Resilience and Water Quality</h3>
+        <p>A practical way to keep living spaces safe and water clean</p>
+        <a href="flood-resilience-and-water-quality.html">Read article</a>
+      </article>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
