@@ -18,8 +18,7 @@
   <header class="topbar">
     <div class="wrap topbar__inner">
       <a class="brand" href="#home" aria-label="Agro Models Home">
-        <img class="brand__logo" src="assets/img/logo.png" alt="Agro Models logo">
-        <img class="brand__logo" src="assets/img/logo.svg" alt="Agro Models logo">
+        <img class="brand__logo" src="assets/logo.png" alt="Agro Models logo">
       </a>
 
       <button class="navToggle" type="button" aria-expanded="false" aria-controls="siteNav">
@@ -45,7 +44,34 @@
         <a class="nav__link" href="#about">
           <span class="nav__dot" aria-hidden="true"></span> About
         </a>
-@@ -75,82 +75,88 @@
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="wrap">
+        <div class="heroCard" role="img" aria-label="Agro Models hero image with title">
+          <div class="heroCard__bg"></div>
+          <div class="heroCard__overlay"></div>
+
+          <div class="heroCard__content">
+            <h1 class="heroTitle">Agro Models</h1>
+            <p class="heroSubtitle">
+              Integrating Environmental, Hydrological, and Process System Modeling for<br>
+              Smarter Agriculture and Sustainable Water Treatment
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About text block (long paragraph style like your screenshot) -->
+    <section class="section">
+      <div class="wrap">
+        <div class="prose">
+          <p>
             Agro Models (Private) Limited is dedicated to advancing sustainable development through the power of modeling and simulation.
             We develop mechanistic, hybrid and data-driven models that bridge agriculture, water treatment, and environmental systems into one integrated framework.
           </p>
@@ -57,8 +83,8 @@
 
           <p>
             What distinguishes Agro Models (Private) Limited is its systems-level perspective.
-            Our models do not stop at plant roots or treatment plant outlets; they trace how human interventions ripple across rivers, aquifers, and soils, linking agricultural productivity with water quality and ecosystem health.
-            By coupling these domains, we aim to create a comprehensive, physically based modeling framework that can also integrate data analytics and AI where appropriate, enhancing prediction, calibration, and control while keeping scientific understanding at its core.
+            Our models do not stop at plant roots or treatment plant outlets; they trace how human interventions ripple across rivers, aquifers, and soils, linking agricultural productivity with water security and environmental health.
+            By coupling these domains, we aim to create a comprehensive, physically based modeling framework that can also integrate data analytics and AI where appropriate, enhancing prediction, adaptability, and decision-making for clients across sectors.
           </p>
         </div>
       </div>
@@ -71,30 +97,18 @@
 
         <div class="services">
           <article class="serviceCard">
-            <img class="serviceCard__img" src="assets/img/service-agri.jpg" alt="Agricultural models">
+            <img class="serviceCard__img" src="assets/Agriculture_webpage.png" alt="Agricultural models">
             <h3 class="serviceCard__title"><a href="#contact">Agricultural Models</a></h3>
-            <a class="serviceCard__link" href="agricultural-models.html" aria-label="Agricultural Models">
-              <img class="serviceCard__img" src="assets/img/service-agri.svg" alt="Agricultural models">
-              <h3 class="serviceCard__title">Agricultural Models</h3>
-            </a>
           </article>
 
           <article class="serviceCard">
-            <img class="serviceCard__img" src="assets/img/service-water-resource.jpg" alt="Water resource models">
+            <img class="serviceCard__img" src="assets/hydrology.png" alt="Water resource models">
             <h3 class="serviceCard__title"><a href="#contact">Water Resource Models</a></h3>
-            <a class="serviceCard__link" href="water-resource-models.html" aria-label="Water Resource Models">
-              <img class="serviceCard__img" src="assets/img/service-water-resource.svg" alt="Water resource models">
-              <h3 class="serviceCard__title">Water Resource Models</h3>
-            </a>
           </article>
 
           <article class="serviceCard">
-            <img class="serviceCard__img" src="assets/img/service-water-treatment.jpg" alt="Water treatment models">
+            <img class="serviceCard__img" src="assets/water treatment.png" alt="Water treatment models">
             <h3 class="serviceCard__title"><a href="#contact">Water treatment models</a></h3>
-            <a class="serviceCard__link" href="water-treatment-models.html" aria-label="Water treatment models">
-              <img class="serviceCard__img" src="assets/img/service-water-treatment.svg" alt="Water treatment models">
-              <h3 class="serviceCard__title">Water treatment models</h3>
-            </a>
           </article>
         </div>
       </div>
@@ -114,8 +128,7 @@
             </p>
 
             <div class="logoLarge">
-              <img src="assets/img/logo.png" alt="Agro Models logo">
-              <img class="inlineLogo" src="assets/img/logo.svg" alt="Agro Models logo">
+              <img src="assets/logo.png" alt="Agro Models logo">
             </div>
           </div>
 
@@ -141,7 +154,20 @@
               <label class="checkbox">
                 <input type="checkbox" name="updates" value="yes">
                 <span>Sign up for news and updates</span>
-@@ -171,73 +177,73 @@
+              </label>
+
+              <div class="field">
+                <label for="whatsapp">WhatsApp Number</label>
+                <input id="whatsapp" name="whatsapp" type="tel" />
+              </div>
+
+              <div class="field">
+                <label for="company">Company Name <span class="req">(required)</span></label>
+                <input id="company" name="company" type="text" required />
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5"></textarea>
               </div>
 
@@ -167,19 +193,17 @@
       <div class="wrap">
         <div class="aboutRow">
           <div class="aboutRow__logo">
-            <img src="assets/img/logo.png" alt="Agro Models logo">
-            <img class="inlineLogo" src="assets/img/logo.svg" alt="Agro Models logo">
+            <img src="assets/logo.png" alt="Agro Models logo">
           </div>
 
           <div class="aboutRow__text">
             <h2 class="sectionTitle sectionTitle--left">About<br>our company</h2>
             <p class="smallLead">
               …At its heart, Agro Models is about integration: of science and society, of mathematics and environmental care, of local expertise and global application.
-              Our mission is to build models that don’t just simulate systems, but transform how they are understood, managed, and sustained.
+              Our mission is to build models that don't just simulate systems, but transform how they are understood, managed, and sustained.
             </p>
 
             <a class="btn btn--wide" href="#contact">Learn more</a>
-            <a class="btn btn--wide" href="about.html">Learn more</a>
           </div>
         </div>
       </div>
@@ -191,8 +215,7 @@
         <h2 class="sectionTitle">Follow us on social</h2>
 
         <div class="socialTile">
-          <img src="assets/img/social-tile.jpg" alt="Agro Models social tile">
-          <img class="socialTile__img" src="assets/img/social-tile.svg" alt="Agro Models social tile">
+          <img src="assets/social-tile.jpg" alt="Agro Models social tile">
         </div>
 
         <footer class="footer">
@@ -218,3 +241,17 @@
               </div>
             </div>
           </div>
+        </footer>
+      </div>
+    </section>
+
+    <!-- Articles placeholder -->
+    <section id="articles" class="section section--tightTop">
+      <div class="wrap">
+        <h2 class="sectionTitle">Articles</h2>
+        <article class="article-card">
+          <p class="article-date">Nov 29</p>
+          <h3>Flood Resilience and Water Quality</h3>
+          <p>A practical way to keep living spaces safe and water clean</p>
+          <a href="flood-resilience-
+
